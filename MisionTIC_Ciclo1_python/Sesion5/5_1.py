@@ -8,7 +8,7 @@ numero = float(input("\nDigite el número para averiguar si es par... "))
 residuo = numero % 2
 if residuo == 0:
     print("El número es par. ")
-if residuo != 0:
+else:
     print("El número es impar")
 
 # Ejercicio 1:

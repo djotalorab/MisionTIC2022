@@ -61,6 +61,6 @@ costo = volumen*5
 if alto > 30:
     costo += 2000
 if costo > 10000:
-    costo = costo+costo*0.19
+    costo *= 1.19
 print(volumen)
 print(costo)

@@ -14,26 +14,6 @@ import javax.swing.JOptionPane;
  * @author dajoo
  */
 public class Clase3 {
-
-    /*public static void main(String[] args) {
-        Scanner digitado = new Scanner(System.in);
-        System.out.println("Digite la cantidad de preguntas hechas al entrevistado: ");
-        int preguntas = digitado.nextInt();
-        System.out.println("Digite la cantidad de preguntas acertadas por el entrevistado: ");
-        int respuestas = digitado.nextInt();
-
-        float promedio = (respuestas/preguntas)*100;
-
-        System.out.println("El porcentaje de aciertos es: "+ promedio + "%.");
-
-        if (promedio >= 90){
-            System.out.println("Nivel Máximo");
-        } else if (promedio >= 75){
-
-        }
-
-    }*/
-
     public static void main(String[] args) {
         Scanner digitado = new Scanner(System.in);
         System.out.println("Ingrese el salario del empleado: ");
@@ -51,5 +31,6 @@ public class Clase3 {
         } else {
             System.out.println("El empleado gana: $" + sueldo + ", no se puede aplicar aumento.");
         }
+        digitado.close();
     }
 }
